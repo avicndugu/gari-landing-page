@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/logo/favicon-16x16.png">
+    <link rel="manifest" href="/logo/site.webmanifest">
+    <title>TrackingIt - Revolutionize Your Logistics: Track Every Truck, Every Time.</title>
+</head>
+<body class="relative" id="body">
+
+    <!-- Header -->
+    <header class="w-full border-b border-slate-150 bg-white/90" id="nav-header">
+        <div class="relative xl:container mx-auto flex flex-col lg:flex-row justify-between lg:items-center px-6">
+            <!-- Branding -->
+            <div class="w-fit">
+                <a href="/" class="flex items-center text-slate-900 py-5 lg:py-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"></path>
+                    </svg>
+                    <span class="pl-3 text-2xl font-bold">RepairIt</span>
+                </a>
+            </div>
+            <!-- End Navbar Header -->
+            <!-- Nav Links -->
+            <nav class="hidden lg:flex gap-5">
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-900">
+                    <a href="/" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Home
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#reviews" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Reviews
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#why-us" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Why Us
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#services" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Services
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#book-appointment" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Book an Appointment    
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Nav Panel Links -->
+            <nav 
+                class="flex hidden lg:hidden flex-col items-stretch pb-2 w-full pb-6"
+                id="nav-mobile"
+            >
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-900 font-medium"
+                >
+                    <a href="#hero" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Home    
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#reviews" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Reviews   
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#why-us" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Why Us    
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#services" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Services    
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#book-appointment" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Book an Appointment    
+                    </a>
+                </div>
+                
+            </nav>
+
+            <!-- Hamburger Menu -->
+            <button class="lg:hidden absolute top-6 right-6" id="nav-open-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>
+            </button>
+            <!-- Cancel Button -->
+            <button class="hidden lg:hidden absolute top-6 right-6" id="nav-close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <!-- Navbar Content -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Hero Section -->
+    <section class="relative bg-blue-50 text-gray-800 py-20 sm:py-24 px-6" id="#hero">
+      <div class="container max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div class="lg:col-span-7 flex flex-col justify-center">
+          <div>
+            <h1 class="text-2xl sm:text-3xl lg:text-3xl xl:text-5xl font-semibold mb-6">
+              The team was professional, fast, and honest about what my car needed
+            </h1>
+            <p class="text-lg sm:text-2xl mb-8">
+              Expert car care and maintenance to keep you safe on the road.
+            </p>
+            <a href="#demo" class="bg-purple-700 text-slate-50 px-6 py-3 rounded-lg text-lg font-medium hover:bg-purple-600">
+              Book an Appointment
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-5 max-w-2xl">
+          <img src="/images/hero.jpg" alt="Supporting visual" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </section> 
+    <!-- End Hero Section -->
+
+    <!-- Posts List Section -->
+    <section class="bg-white py-16 sm:py-32 px-6" id="reviews">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">
+          Blog Posts
+        </h2>
+        <div class="grid grid-cols-1 gap-6 sm:gap-8">
+          <!-- Testimonial 1 -->
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
+            <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 sm:col-span-4">
+                <img src="/images/pexels-pixabay-161502.jpg" alt="" class="h-full object-cover">
+              </div>
+              <div class="col-span-12 sm:col-span-8">
+                <div class="p-6 sm:px-16">
+                  <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed
+                  </h2>
+                  <p class="text-gray-800 text-base sm:text-lg">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed.
+                    A lifesaver! The team was professional, fast, and honest about 
+                    <a href="#"  class="font-medium ml-2">Read more...</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonial 1 -->
+          <!-- Testimonial 2 -->
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
+            <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 sm:col-span-4">
+                <img src="/images/pexels-pixabay-161502.jpg" alt="" class="h-full object-cover">
+              </div>
+              <div class="col-span-12 sm:col-span-8">
+                <div class="p-6 sm:px-16">
+                  <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed
+                  </h2>
+                  <p class="text-gray-800 text-base sm:text-lg">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed.
+                    A lifesaver! The team was professional, fast, and honest about 
+                    <a href="#"  class="font-medium ml-2">Read more...</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonial 2 -->
+          <!-- Testimonial 3 -->
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
+            <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 sm:col-span-4">
+                <img src="/images/pexels-pixabay-161502.jpg" alt="" class="h-full object-cover">
+              </div>
+              <div class="col-span-12 sm:col-span-8">
+                <div class="p-6 sm:px-16">
+                  <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed
+                  </h2>
+                  <p class="text-gray-800 text-base sm:text-lg">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed.
+                    A lifesaver! The team was professional, fast, and honest about 
+                    <a href="#"  class="font-medium ml-2">Read more...</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonial 3 -->
+          <!-- Testimonial 4 -->
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
+            <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 sm:col-span-4">
+                <img src="/images/pexels-pixabay-161502.jpg" alt="" class="h-full object-cover">
+              </div>
+              <div class="col-span-12 sm:col-span-8">
+                <div class="p-6 sm:px-16">
+                  <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed
+                  </h2>
+                  <p class="text-gray-800 text-base sm:text-lg">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed.
+                    A lifesaver! The team was professional, fast, and honest about 
+                    <a href="#"  class="font-medium ml-2">Read more...</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonial 4 -->
+          <!-- Testimonial 5 -->
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
+            <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 sm:col-span-4">
+                <img src="/images/pexels-pixabay-161502.jpg" alt="" class="h-full object-cover">
+              </div>
+              <div class="col-span-12 sm:col-span-8">
+                <div class="p-6 sm:px-16">
+                  <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed
+                  </h2>
+                  <p class="text-gray-800 text-base sm:text-lg">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed.
+                    A lifesaver! The team was professional, fast, and honest about 
+                    <a href="#"  class="font-medium ml-2">Read more...</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonial 5 -->
+          <!-- Testimonial 6 -->
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
+            <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 sm:col-span-4">
+                <img src="/images/pexels-pixabay-161502.jpg" alt="" class="h-full object-cover">
+              </div>
+              <div class="col-span-12 sm:col-span-8">
+                <div class="p-6 sm:px-16">
+                  <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed
+                  </h2>
+                  <p class="text-gray-800 text-base sm:text-lg">
+                    A lifesaver! The team was professional, fast, and honest about what my car needed.
+                    A lifesaver! The team was professional, fast, and honest about 
+                    <a href="#"  class="font-medium ml-2">Read more...</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonial 6 -->
+        </div>
+      </div>
+    </section>
+    <!-- End Posts List Section -->
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-slate-50 py-12 px-6">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Social Media Links -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+          <div class="flex space-x-4">
+            <a href="#" class="bg-purple-700 p-2 rounded-full hover:bg-purple-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-slate-50" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 4.6a10 10 0 01-2.9.8 5 5 0 002.2-2.7c-.9.6-1.8 1-2.8 1.3a5 5 0 00-8.5 4.5A14 14 0 011.6 3.2a5 5 0 001.6 6.7 5 5 0 01-2.3-.6v.1a5 5 0 004 4.8 5 5 0 01-2.3.1 5 5 0 004.7 3.5A10 10 0 010 20.4a14 14 0 007.5 2.2c9 0 14-7.5 14-14v-.7a10 10 0 002.5-2.6"></path>
+              </svg>
+            </a>
+            <a href="#" class="bg-purple-700 p-2 rounded-full hover:bg-purple-600">
+              <svg class="h-5 w-5 text-slate-50" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310">
+                <g>
+                  <path d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+                    c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+                    V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+                    C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+                    c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"/>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Newsletter Signup -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
+          <form class="flex">
+            <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg w-full focus:outline-none">
+            <button class="bg-purple-700 px-4 py-2 text-slate-50 rounded-r-lg hover:bg-blue-700">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-sm text-gray-300">
+        &copy; 2025 BrandName. All rights reserved.
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

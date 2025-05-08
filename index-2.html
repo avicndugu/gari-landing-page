@@ -13,84 +13,105 @@
 
     <!-- Header -->
     <header class="w-full border-b border-slate-150 bg-white/90" id="nav-header">
-      <div class="relative xl:container mx-auto flex flex-col lg:flex-row justify-between lg:items-center px-6">
-          <!-- Branding -->
-          <div class="w-fit">
-              <a href="/" class="flex items-center text-slate-900 py-5 lg:py-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"></path>
-                  </svg>
-                  <span class="pl-3 text-2xl font-bold">RepairIt</span>
-              </a>
-          </div>
-          <!-- End Navbar Header -->
-          <!-- Nav Links -->
-          <nav class="hidden lg:flex gap-5">
-              <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-900">
-                  <a href="/" class="inline-block py-2 min-w-20 text-center text-lg">
-                      Home
-                  </a>
-              </div>
-              <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
-                  <a href="/about/" class="inline-block py-2 min-w-20 text-center text-lg">
-                    About
-                  </a>
-              </div>
-              <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
-                  <a href="/contact/" class="inline-block py-2 min-w-20 text-center text-lg">
-                    Contact
-                  </a>
-              </div>
-              <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
-                  <a href="/newsletter/" class="inline-block py-2 min-w-20 text-center text-lg">
-                    Newsletter     
-                  </a>
-              </div>
-          </nav>
+        <div class="relative xl:container mx-auto flex flex-col lg:flex-row justify-between lg:items-center px-6">
+            <!-- Branding -->
+            <div class="w-fit">
+                <a href="/" class="flex items-center text-slate-900 py-5 lg:py-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"></path>
+                    </svg>
+                    <span class="pl-3 text-2xl font-bold">RepairIt</span>
+                </a>
+            </div>
+            <!-- End Navbar Header -->
+            <!-- Nav Links -->
+            <nav class="hidden lg:flex gap-5">
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-900">
+                    <a href="/" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Home
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#reviews" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Reviews
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#why-us" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Why Us
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#services" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Services
+                    </a>
+                </div>
+                <div class="py-3 py-3 hover:text-purple-700 font-medium text-slate-600">
+                    <a href="#book-appointment" class="inline-block py-2 min-w-20 text-center text-lg">
+                        Book an Appointment    
+                    </a>
+                </div>
+            </nav>
 
-          <!-- Nav Panel Links -->
-          <nav 
-              class="flex hidden lg:hidden flex-col items-stretch pb-2 w-full pb-6"
-              id="nav-mobile"
-          >
-              <div class="flex-1 hover:text-purple-700 hover:bg-slate-50 text-slate-900 font-medium">
-                  <a href="/" class="inline-block py-2 px-4 w-full flex-1 text-lg">
-                      Home    
-                  </a>
-              </div>
-              <div class="flex-1 hover:text-purple-700 hover:bg-slate-50 text-slate-600 font-medium">
-                  <a href="/about/" class="inline-block py-2 px-4 w-full flex-1 text-lg">
-                      About  
-                  </a>
-              </div>
-              <div class="flex-1 hover:text-purple-700 hover:bg-slate-50 text-slate-600 font-medium">
-                  <a href="/contact/" class="inline-block py-2 px-4 w-full flex-1 text-lg">
-                      Contact   
-                  </a>
-              </div>
-              <div class="flex-1 hover:text-purple-700 hover:bg-slate-50 text-slate-600 font-medium">
-                  <a href="/newsletter/" class="inline-block py-2 px-4 w-full flex-1 text-lg">
-                      Newsletter   
-                  </a>
-              </div>
-          </nav>
+            <!-- Nav Panel Links -->
+            <nav 
+                class="flex hidden lg:hidden flex-col items-stretch pb-2 w-full pb-6"
+                id="nav-mobile"
+            >
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-900 font-medium"
+                >
+                    <a href="#hero" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Home    
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#reviews" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Reviews   
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#why-us" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Why Us    
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#services" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Services    
+                    </a>
+                </div>
+                <div 
+                  class="flex-1 hover:text-purple-700 text-slate-600 font-medium"
+                >
+                    <a href="#book-appointment" class="inline-block py-2 px-4 w-full flex-1 text-lg">
+                        Book an Appointment    
+                    </a>
+                </div>
+                
+            </nav>
 
-          <!-- Hamburger Menu -->
-          <button class="lg:hidden absolute top-6 right-6" id="nav-open-btn">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-              </svg>
-          </button>
-          <!-- Cancel Button -->
-          <button class="hidden lg:hidden absolute top-6 right-6" id="nav-close-btn">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-              </svg>
-          </button>
+            <!-- Hamburger Menu -->
+            <button class="lg:hidden absolute top-6 right-6" id="nav-open-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>
+            </button>
+            <!-- Cancel Button -->
+            <button class="hidden lg:hidden absolute top-6 right-6" id="nav-close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </button>
 
-          <!-- Navbar Content -->
-      </div>
-  </header>
+            <!-- Navbar Content -->
+        </div>
+    </header>
     <!-- End Header -->
 
     <!-- Hero Section -->
@@ -118,17 +139,16 @@
 
     <!-- Posts List Section -->
     <section class="bg-white py-16 sm:py-32 px-6" id="reviews">
-      <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-semibold text-center text-gray-900 mb-10">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">
           Blog Posts
         </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
-          <!-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> -->
+        <div class="grid grid-cols-1 gap-6 sm:gap-8">
           <!-- Testimonial 1 -->
-          <div class="relative p-6 bg-slate-100 rounded-3xl shadow-lg max-w-xl overflow-hidden">
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
             <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
-            <div class="p-4">
-              <h2 class="mb-4 text-lg sm:text-2xl text-gray-600 font-medium">
+            <div class="p-10">
+              <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
                 A lifesaver! The team was professional, fast, and honest about what my car needed
               </h2>
               <p class="text-gray-800 text-base sm:text-lg">
@@ -140,10 +160,10 @@
           </div>
           <!-- End Testimonial 1 -->
           <!-- Testimonial 2 -->
-          <div class="relative p-6 bg-slate-100 rounded-3xl shadow-lg max-w-xl overflow-hidden">
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
             <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
-            <div class="p-4">
-              <h2 class="mb-4 text-lg sm:text-2xl text-gray-600 font-medium">
+            <div class="p-10">
+              <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
                 A lifesaver! The team was professional, fast, and honest about what my car needed
               </h2>
               <p class="text-gray-800 text-base sm:text-lg">
@@ -155,10 +175,10 @@
           </div>
           <!-- End Testimonial 2 -->
           <!-- Testimonial 3 -->
-          <div class="relative p-6 bg-slate-100 rounded-3xl shadow-lg max-w-xl overflow-hidden">
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
             <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
-            <div class="p-4">
-              <h2 class="mb-4 text-lg sm:text-2xl text-gray-600 font-medium">
+            <div class="p-10">
+              <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
                 A lifesaver! The team was professional, fast, and honest about what my car needed
               </h2>
               <p class="text-gray-800 text-base sm:text-lg">
@@ -170,10 +190,10 @@
           </div>
           <!-- End Testimonial 3 -->
           <!-- Testimonial 4 -->
-          <div class="relative p-6 bg-slate-100 rounded-3xl shadow-lg max-w-xl overflow-hidden">
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
             <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
-            <div class="p-4">
-              <h2 class="mb-4 text-lg sm:text-2xl text-gray-600 font-medium">
+            <div class="p-10">
+              <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
                 A lifesaver! The team was professional, fast, and honest about what my car needed
               </h2>
               <p class="text-gray-800 text-base sm:text-lg">
@@ -185,10 +205,10 @@
           </div>
           <!-- End Testimonial 4 -->
           <!-- Testimonial 5 -->
-          <div class="relative p-6 bg-slate-100 rounded-3xl shadow-lg max-w-xl overflow-hidden">
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
             <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
-            <div class="p-4">
-              <h2 class="mb-4 text-lg sm:text-2xl text-gray-600 font-medium">
+            <div class="p-10">
+              <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
                 A lifesaver! The team was professional, fast, and honest about what my car needed
               </h2>
               <p class="text-gray-800 text-base sm:text-lg">
@@ -200,10 +220,10 @@
           </div>
           <!-- End Testimonial 5 -->
           <!-- Testimonial 6 -->
-          <div class="relative p-6 bg-slate-100 rounded-3xl shadow-lg max-w-xl overflow-hidden">
+          <div class="relative bg-slate-100 rounded-3xl shadow-lg overflow-hidden">
             <div class="absolute top-0 right-0 w-16 h-16 bg-purple-400 rounded-bl-full"></div>
-            <div class="p-4">
-              <h2 class="mb-4 text-lg sm:text-2xl text-gray-600 font-medium">
+            <div class="p-10">
+              <h2 class="mb-4 text-xl sm:text-2xl text-gray-600 font-medium">
                 A lifesaver! The team was professional, fast, and honest about what my car needed
               </h2>
               <p class="text-gray-800 text-base sm:text-lg">
@@ -220,7 +240,7 @@
     <!-- End Posts List Section -->
 
     <!-- Footer -->
-    <footer class="bg-blue-50 text-gray-800 py-12 px-6">
+    <footer class="bg-gray-900 text-slate-50 py-12 px-6">
       <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Social Media Links -->
         <div>
@@ -247,7 +267,7 @@
         <!-- Newsletter Signup -->
         <div>
           <h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
-          <form class="flex border border-purple-700 rounded-lg">
+          <form class="flex">
             <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg w-full focus:outline-none">
             <button class="bg-purple-700 px-4 py-2 text-slate-50 rounded-r-lg hover:bg-blue-700">
               Subscribe
@@ -255,7 +275,7 @@
           </form>
         </div>
       </div>
-      <div class="mt-8 text-center text-sm text-gray-600">
+      <div class="mt-8 text-center text-sm text-gray-300">
         &copy; 2025 BrandName. All rights reserved.
       </div>
     </footer>

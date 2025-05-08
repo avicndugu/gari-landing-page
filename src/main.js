@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navOpenButton.classList.toggle("hidden");
         navCloseButton.classList.toggle("hidden");
         navMobile.classList.toggle("hidden");
-        body.classList.toggle("overflow-hidden");
+        // body.classList.toggle("overflow-hidden");
         navHeader.classList.toggle("bg-white");
         navHeader.classList.toggle("bg-white/90");
     }
